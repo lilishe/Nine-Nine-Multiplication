@@ -1,0 +1,164 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+        font-family:'Noto Sans TC','Roboto', sans-serif;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.clearfix{
+    display:block;
+    content:"";
+    clear:both;
+}
+img{
+  max-width:100%;
+  height:auto;
+}
+
+body{
+    background: #F0F0F0;
+}
+
+.wrap{
+    max-width: 1280px;
+    padding: 96.5px 70px 80px 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 355px;
+    height: 366px;
+    position: relative;
+    color:#2EB738;
+    margin-right: 15px;
+    margin-bottom: 40px;
+}
+
+.line-top,.line-bottom{
+    width: 280px;
+    height: 1px;
+    background: #2EB738;
+    margin-left: 35px;
+}
+
+.line-top::before{
+    content:'X';
+    font-size: 24px;
+    position: absolute;
+    top: -13px;
+    left: 0;
+}
+.line-top::after{
+    content:'X';
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: -13px;
+}
+.line-bottom::before{
+    content:'X';
+    font-size: 24px;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+}
+.line-bottom::after{
+    content:'X';
+    font-size: 24px;
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+}
+.box h1{
+    font-size: 56px;
+    font-weight: bolder;
+    line-height: 84px;
+    text-align: center;
+    margin-top: 113.5px;
+}
+
+.box h2{
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 118.5px;
+}
+
+.boxNum{
+    background: #fff;
+    border-radius: 100px 0 30px 0;
+    box-shadow: 0 3px 10px #D8D8D8;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title{
+    font-size: 128px;
+    line-height: 128px;
+    font-weight: 700;
+    text-shadow: 4px 3px #D8D8D8;
+    margin-top: 34px;
+    margin-left: 61px;
+}
+
+.content{
+    font-size: 24px;
+    line-height: 33px;
+    margin-left: 40px;
+    margin-bottom: 8px;
+}
+.content3{
+    margin-bottom: 64px;
+}
+.content4{
+    margin-top: 34px;
+}
+
+.footer{
+    background: #2EB738;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 0;
+    text-align: right;
+    color: #fff;
+    padding-right: 85px;
+}
